@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +9,7 @@
   $color-primary: red;
 
   $color-secundary: #010101;
+
+  $color-main: #8b72af;
+
+  $filterMainColor: invert(50%) sepia(12%) saturate(1413%) hue-rotate(223deg) brightness(94%) contrast(87%); 
