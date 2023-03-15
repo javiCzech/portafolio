@@ -15,7 +15,7 @@ export const Experience = () => {
   return (
     <>
       <div className="container text-center mt-5">
-        <h3 className="h3 mt-4">Experiencia / Estudios </h3>
+        <h3 className="titulos-secundarios mt-4">Experiencia / Estudios </h3>
         <section className="row mt-3">
           <article className="btn col-6 trabajo" onClick={handleEducation}>
             <i className="fas fa-briefcase"></i> Trabajo

@@ -1,7 +1,7 @@
 export const Skills = () => {
   return (
     <>
-      <section className="skills" id="skills">
+      <section className="skills">
         <div className="container max-width">
           <h2 className="title fadein">Habilidades</h2>
           <div className="row skills-content">

@@ -6,12 +6,17 @@
 }
 
 .color1 {
-  background-color: #010101;
+  background-color: #0d0d0d;
 }
 
 .nav-link {
   color: whitesmoke !important;
   font-size: 1.2rem;
+}
+
+.titulos-secundarios {
+  font-size: 40px;
+  font-weight: 500 !important;
 }
 
 .fondo {
@@ -208,6 +213,61 @@
     float: none;
     direction: ltr;
   }
+}
+.skills {
+  height: 600px;
+}
+
+.projects-button {
+  width: 40% !important;
+  margin-left: 20px;
+}
+
+.caja-tags {
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.tags {
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.titulo-footer {
+  color: whitesmoke;
+  font-weight: 200;
+}
+
+.copy-footer {
+  color: whitesmoke;
+  font-weight: 100;
+  margin: 0;
+}
+
+.copyright {
+  background-color: #0d0d0d;
+}
+
+.fondo-footer {
+  background-color: #0d0d0d;
+  height: 400px;
+}
+
+.card-footer {
+  width: 12rem;
+  background-color: rgba(10, 10, 10, 0);
+  cursor: pointer;
+}
+
+.card-footer:hover {
+  border: 2px solid;
+  border-color: red;
+  transition: 0.5s;
+}
+
+.footer-texto {
+  color: whitesmoke;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

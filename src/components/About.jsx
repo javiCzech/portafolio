@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <>
       <section className="container-fluid fondo__about ">  v
-      <h2 className="procesadores text-center pt-5">Un poco sobre mi:</h2>
+      <h2 className="titulos-secundarios text-center pt-5">Un poco sobre mi:</h2>
         <div className="row">
           <article className="col-xs-12 col-md-12 col-lg-6 text-center pt-3">
             <img src="../data/image/javier-brizuela.jpg" className="img-javier" alt="Javier Brizuela" />
