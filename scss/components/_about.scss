@@ -1,18 +1,36 @@
-.fondo__about {
-    height: 650px;
-    background-color: ffffff;
+.fondo-about {
+    // height: 650px;
+    background-color: $color-secundary;
 }
 .img-javier{
     height: 70%;
     border-radius: 30px;
 }
-
+#titulo-about{
+    color: whitesmoke;
+    
+}
+.fondo-fa{
+    color: whitesmoke;
+}
 .description {
     font-size: 1.5rem;
+    color: whitesmoke;
+    text-align:justify;
 }
 .cv{
     font-size: 1.5rem;
 }
 .descarga{
     font-size: 2rem;
+}
+@media (min-width: 1000px) and (max-width: 1920px){
+    .fondo-about {
+        height: 900px;
+    }
+}
+@media (max-width: 1300px){
+    .cv{
+        margin-bottom: 30px;
+    }
 }

@@ -1,11 +1,27 @@
-.color1 {
-    background-color: $color-secundary;
-}
+
 .nav-link {
-    color: whitesmoke !important;
     font-size: 1.2rem;
+}
+.logo a {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Pacifico" !important;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+.navbar-nav li a {
+    color: whitesmoke;
+    font-weight: 800 !important
+}
+.nav-item a:hover {
+    color: $color-primary;
+}
+.logo a span {
+    color: crimson;
+    font-family: "Pacifico" !important;
 }
 .titulos-secundarios {
     font-size: 40px;
-    font-weight: 500 !important;
+    font-weight: 800 !important;
 }

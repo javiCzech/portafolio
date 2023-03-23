@@ -1,6 +1,7 @@
 .titulo-footer {
     color:whitesmoke;
     font-weight: 200;
+    margin: 0px auto;
 }
 
 .copy-footer {
@@ -13,5 +14,15 @@
 }
 .fondo-footer {
     background-color: $color-secundary;
-    height: 400px;
+}
+@media (min-width: 300px) and (max-width: 600px){
+    .fondo-footer{
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1920px){
+    .fondo-footer{
+        height: 600px;
+    }
 }

@@ -1,3 +1,27 @@
 .skills {
-    height: 600px;
+    background-color: $color-secundary;
+    min-height: 100%;
+}
+.parrafo-habilidades {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align:justify;
+}
+.title-fadein {
+    color: whitesmoke;
+}
+
+.text-lenguaje {
+    @extend .parrafo-habilidades;
+    font-size: 1rem;
+}
+@media (max-width: 799px){
+    .skills{
+        max-height: 100%;
+    }
+}
+@media (min-width: 800px) and (max-width: 1920px){
+    .skills {
+        height: 800px;
+    }
 }

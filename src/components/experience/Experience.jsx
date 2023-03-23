@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Education } from "./Education";
 import { Work } from "./Work";
 
+
+
 export const Experience = () => {
   const [work, setWork] = useState(true);
   const handleWork = () => {
@@ -14,13 +16,13 @@ export const Experience = () => {
   };
   return (
     <>
-      <div className="container text-center mt-5">
-        <h3 className="titulos-secundarios mt-4">Experiencia / Estudios </h3>
+      <div className="container text-center fondo-section pt-5" id="experience">
+        <h3 className="titulos-secundarios mt-4">Experiencia </h3>
         <section className="row mt-3">
-          <article className="btn col-6 trabajo" onClick={handleEducation}>
+          <article className="btn col-6 col-lg-6 trabajo" onClick={handleEducation}>
             <i className="fas fa-briefcase"></i> Trabajo
           </article>
-          <article className="btn col-6 trabajo" onClick={handleWork}>
+          <article className="btn col-6 col-lg-6 trabajo" onClick={handleWork}>
             <i className="fas fa-user-graduate"></i> Educacion
           </article>
         </section>

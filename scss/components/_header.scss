@@ -1,20 +1,18 @@
 .fondo {
     height: 900px;
-    background:url(../../data/image/img-header.jpg) center / cover no-repeat fixed ;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    background:url(../../data/image/programing1.jpg) center / cover no-repeat fixed ;
 }
 .text1{
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 .text2 {
     @extend .text1
 }
+.text3 {
+    font-size: 1.2rem
+}
 .nombre {
+    @extend .text1;
     color: $color-primary;
 }

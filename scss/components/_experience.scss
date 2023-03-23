@@ -1,5 +1,9 @@
+
 .trabajo {
     font-size: 1.5rem;
+}
+.proyecto{
+  color: crimson;
 }
 .experience {
     // background-color: $color-main;
@@ -83,7 +87,7 @@
     height: 16px;
     border-radius: 50%;
     border: 2px solid #f5f7fa;
-    background: $color-main;
+    background: $color-primary;
     margin-top: 3px;
     z-index: 1;
   }
